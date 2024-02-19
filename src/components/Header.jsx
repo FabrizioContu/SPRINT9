@@ -8,7 +8,7 @@ function Header1() {
     useContext(Context);
   return (
     <div className="">
-      <div className="navbar bg-[#508BBA] p-4 font-semibold justify-center lg:justify-around">
+      <div className="navbar bg-[#508BBA] p-4 justify-center lg:justify-around">
         <div>
           <Link to="/">
             <img

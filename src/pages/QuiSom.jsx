@@ -3,7 +3,7 @@ import quisom from "../assets/qui_som.jpg";
 
 function QuiSom() {
   return (
-    <div className="text-left mx-24 space-x-2 py-10">
+    <div className="text-left mx-24 space-x-2 py-10 font-poppins">
       {" "}
       <div className="mb-16">
         {" "}

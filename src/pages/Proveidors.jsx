@@ -8,7 +8,7 @@ function Proveidors() {
   const {} = useContext(Context);
 
   return (
-    <div>
+    <div className="font-poppins">
       <div
         className="hero aspect-video rounded-b-lg"
         style={{

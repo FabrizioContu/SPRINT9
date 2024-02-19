@@ -65,7 +65,13 @@ const posts = [
 
 function Home() {
   return (
-    <div className="">
+    <div className="font-poppins">
+      <div className="">
+        <iframe
+          className=" w-full aspect-video rounded-xl md:rounded-none mt-5 md:mt-0 "
+          src="https://www.youtube.com/embed/k0DrDVlih0M?si=T6NzQ9pdO1MaAwtR"
+        ></iframe>
+      </div>
       <div className="">
         <img
           className="rounded-xl md:rounded-none aspect-video my-5"
@@ -86,7 +92,7 @@ function Home() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               <div class="text-3xl md:text-5xl font-extrabold ...">
-                <span class="bg-clip-text text-transparent bg-gradient-to-r from-rose-600 to-sky-500">
+                <span class=" bg-clip-text text-transparent bg-gradient-to-r from-rose-600 to-sky-500">
                   Des-de el nostre Blog
                 </span>
               </div>

@@ -15,7 +15,7 @@ import Map from "./Map";
 function Footer() {
   const { LogoBillet, somLaClau, logos_peu } = useContext(Context);
   return (
-    <div className="">
+    <div className="font-">
       <div className="">
         <img className="w-screen h-32" src={WaveBottom} alt="wave" />
       </div>

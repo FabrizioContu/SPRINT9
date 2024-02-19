@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div className="">
-      <nav className="flex  gap-5 menu-vertical md:menu-horizontal rounded-lg text-lg text-[#508BBA] md:text-white">
+      <nav className="flex font-poppins gap-5 menu-vertical md:menu-horizontal rounded-lg text-lg space-x-1 text-[#508BBA] md:text-white">
         <div className="btn-ghost rounded-md py-1 px-2">
           <NavLink to="/">inici</NavLink>
         </div>{" "}
