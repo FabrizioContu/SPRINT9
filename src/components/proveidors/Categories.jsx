@@ -54,7 +54,7 @@ const Categories = () => {
           ))}
         </ul>
         {selectedCategory ? ( // Check if a category is selected
-          <ul className="grid grid-cols-2 place-items-center ">
+          <ul className="grid grid-cols-2 place-items-center bg-slate-50 shadow-sm rounded-md ">
             {filteredProveidors.map((proveidor) => (
               <div key={proveidor.id}>
                 <div className=" cursor-pointer flex gap-2 p-1 rounded-md bg-slate-100 w-32 my-2">
