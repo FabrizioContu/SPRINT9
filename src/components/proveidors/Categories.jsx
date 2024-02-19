@@ -1,5 +1,16 @@
 import React, { useContext } from "react";
 import Context from "../../context/Context";
+import IconVerdures from "../../assets/verdures.png";
+import IconFruites from "../../assets/fruites.png";
+import IconLactics from "../../assets/lactics.png";
+import IconLlegums from "../../assets/llegums.png";
+
+const categoryIcons = {
+  verdures: IconVerdures,
+  fruites: IconFruites,
+  lactics: IconLactics,
+  llegums: IconLlegums,
+};
 
 const Categories = () => {
   const {
@@ -13,24 +24,32 @@ const Categories = () => {
 
   return (
     <div className=" grid place-content-center bg-slate-100 rounded-md">
-      <div className="bg-neutral-50 shadow-md rounded-lg m-5 px-5">
+      <div className=" m-5 px-5">
         <h2 className="text-3xl font-bold mt-5 text-center">Productes</h2>
-        <ul className="flex text-center content-center space-x-4">
+
+        <ul className="flex shrink text-center content-center gap-3">
           {categories.map((category) => (
             <li
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`cursor-pointer w-24 my-5 px-3 py-5 rounded-md ${
+              className={`cursor-pointer text-sm w-24 h-24 py-3 md:text-base md:w-32 md:h-32 my-5 px-3 md:py-5 rounded-full ${
                 selectedCategory === category
                   ? `${getCategoryColor(
                       category
                     )} text-white text-lg font-semibold underline`
-                  : `${getCategoryColor(
-                      category
-                    )} text-gray-800 hover:bg-gray-400 hover:text-white`
+                  : `${getCategoryColor(category)}  hover:text-white`
               }`}
             >
-              {category}
+              <div className="flex flex-col items-center shrink">
+                {categoryIcons[category] && (
+                  <img
+                    src={categoryIcons[category]}
+                    alt={category}
+                    className="h-10 w-10 md:h-12 md:w-12  mb-2"
+                  />
+                )}
+                {category}
+              </div>
             </li>
           ))}
         </ul>
