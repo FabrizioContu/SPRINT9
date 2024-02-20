@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import LogoCircle from "../assets/LogoCircle.png";
 import LogoBillet from "../assets/LogoBillet.png";
 import LaIgualitariaTextBlanc from "../assets/LaIgualitariaTextBlanc.png";
@@ -113,6 +113,32 @@ export const ContextProvider = ({ children }) => {
     setSelectedCategory(category === selectedCategory ? null : category);
   };
 
+  const [showArrowUp, setShowArrowUp] = useState(false);
+
+  // Function to handle scrolling and show/hide arrowUp button
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const showArrowThreshold = 400; // Adjust this threshold as needed
+
+    // Check if scrollTop is greater than the threshold to show the arrowUp button
+    setShowArrowUp(scrollTop > showArrowThreshold);
+  };
+
+  // Add scroll event listener on mount
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Function to handle scrolling back to the top
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <Context.Provider
       value={{
@@ -130,6 +156,10 @@ export const ContextProvider = ({ children }) => {
         setSelectedCategory,
         categories,
         handleCategoryClick,
+        handleScroll,
+        scrollToTop,
+        showArrowUp,
+        setShowArrowUp,
       }}
     >
       {children}

@@ -12,7 +12,7 @@ const DetallProveidor = () => {
               <img
                 src={prov.image}
                 alt={prov.nombre}
-                className="rounded-xl h-32"
+                className="rounded-xl h-24"
               />
             </figure>
 
