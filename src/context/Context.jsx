@@ -62,8 +62,7 @@ export const ContextProvider = ({ children }) => {
         somLaClau,
         logos_peu,
         proveidors,
-        renderProducts,
-        getCategoryColor,
+
         filteredProveidors,
         selectedCategory,
         setSelectedCategory,
