@@ -39,7 +39,7 @@ const proveidors = [
     productos: ["mongetas", "xigrons", "carxofes"],
     dirección: [{ ciudad: "Ciudad1", calle: "Calle 3", número: 789 }],
     image:
-      "https://c.pxhere.com/photos/87/42/animal_bull_fauna_peasant_woman_love_kiss_agricultural-606826.jpg!d",
+      "https://c.pxhere.com/photos/f9/4e/young_girl_portrait_tree_girl_young_female_caucasian_person-599516.jpg!d",
     descripcion:
       "texto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererre.",
   },
@@ -62,6 +62,28 @@ const proveidors = [
     dirección: [{ ciudad: "Ciudad1", calle: "Calle 2", número: 456 }],
     image:
       "https://c.pxhere.com/photos/d8/45/cow_animal_field_farmer_farm-1216124.jpg!d",
+    descripcion:
+      "texto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererre",
+  },
+  {
+    id: 7,
+    nombre: "María",
+    categoria: "Lactics",
+    productos: ["iogurt de cabra", "llet cabra", "espinacs"],
+    dirección: [{ ciudad: "Ciudad1", calle: "Calle 2", número: 456 }],
+    image:
+      "https://c.pxhere.com/photos/05/09/woman_girl_portrait_outdoors_field_cereals_grains_wheat-846221.jpg!d",
+    descripcion:
+      "texto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererre",
+  },
+  {
+    id: 8,
+    nombre: "Antoni",
+    categoria: "Lactics",
+    productos: ["iogurt de vaca", "llet vaca"],
+    dirección: [{ ciudad: "Ciudad1", calle: "Calle 2", número: 456 }],
+    image:
+      "https://c.pxhere.com/photos/18/4b/farmer_cow_iceland_animals-750823.jpg!d",
     descripcion:
       "texto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererretexto descripción descri prio fio odp f fddfafegega ererre",
   },

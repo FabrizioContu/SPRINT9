@@ -92,7 +92,7 @@ function Home() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               <div class="text-3xl md:text-5xl font-extrabold ...">
-                <span class=" bg-clip-text text-transparent bg-gradient-to-r from-rose-600 to-sky-500">
+                <span class=" bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-[#508BBA]">
                   Des-de el nostre Blog
                 </span>
               </div>

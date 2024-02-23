@@ -16,7 +16,7 @@ function Nav() {
         <div className="btn-ghost rounded-md p-1">
           <NavLink to="/proveidors">proveïdors</NavLink>
         </div>
-        <div className="btn-ghost rounded-lg p-1 text-white bg-rose-800 md:hover:bg-rose-900 ">
+        <div className="btn-ghost rounded-2xl py-1 px-2 text-white bg-pink-600 md:hover:bg-pink-700 ">
           <NavLink to="/fer-se-soci">fes-te soci/a</NavLink>
         </div>{" "}
       </nav>

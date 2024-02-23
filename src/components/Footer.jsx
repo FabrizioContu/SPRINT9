@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import WaveBottom from "../assets/waveBottom.png";
+import WaveBottom from "../assets/waveBottom2.png";
 
 import {
   FaTwitter,
@@ -21,7 +21,7 @@ function Footer() {
       <div className="">
         <img className="w-screen h-32" src={WaveBottom} alt="wave" />
       </div>
-      <footer className="footer p-10 bg-slate-500 text-white text-base">
+      <footer className="footer p-10 bg-pink-600 text-white text-base">
         <div className="bg-slate-400">
           <Map />
         </div>
@@ -63,9 +63,12 @@ function Footer() {
         </nav>
       </footer>
       <footer>
-        <div className=" bg-gradient-to-t  from-slate-700 to-slate-500 grid grid-rows grid-flow-col-3 py-5 ">
+        <div className=" bg-gradient-to-t  from-pink-800 to-pink-600 grid grid-rows grid-flow-col-3 py-5 ">
           {showArrowUp && (
-            <div className="arrowUp place-self-end" onClick={scrollToTop}>
+            <div
+              className="arrowUp cursor-pointer place-self-end"
+              onClick={scrollToTop}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
