@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Context from "../context/Context";
 import Nav from "./Nav";
 
@@ -31,7 +31,7 @@ function Header1() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-80"
           >
             <li>
-              <a href="/">Inici</a>
+              <NavLink to="/">inici</NavLink>
             </li>
             <li>
               <a href="">comunitat</a>
@@ -43,12 +43,12 @@ function Header1() {
                   <a>Com decidim</a>
                 </li>
                 <li>
-                  <a href="/qui-som">Qui som</a>
+                  <NavLink to="/qui-som">Qui som</NavLink>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/proveidors">Proveïdors</a>
+              <NavLink to="/proveidors">Proveïdors</NavLink>
             </li>
           </ul>
         </div>
@@ -79,7 +79,7 @@ function Header1() {
               <summary>comunitat</summary>
               <ul className="p-2 w-72 bg-[#508BBA] text-lg">
                 <li>
-                  <a href="/qui-som">qui som</a>
+                  <NavLink to="/qui-som">qui som</NavLink>
                 </li>
                 <li>
                   <a>com decidim</a>
@@ -88,17 +88,17 @@ function Header1() {
             </details>
           </li>
           <li className="text-lg">
-            <a href="/proveidors">proveïdors</a>
+            <NavLink to="/proveidors">proveïdors</NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end flex justify-center">
-        <a
-          href="/fer-se-soci"
+        <NavLink
           className="btn-ghost rounded-2xl py-1 px-2 text-white bg-pink-600 md:hover:bg-pink-700 "
+          to="/fer-se-soci"
         >
-          feste soci/a
-        </a>
+          fes-te soci/a
+        </NavLink>
       </div>
     </div>
   );
