@@ -13,7 +13,7 @@ function Header1() {
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 "
+              className="h-7 w-7 "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -55,7 +55,7 @@ function Header1() {
         <div className="flex justify-center lg:justify-around">
           <Link to="/">
             <img
-              className="h-28 w-40 flex flex-shrink-0 items-center  mx-10 rounded-full"
+              className="h-14 w-20 sm:h-28 sm:w-40 flex items-center  mx-10 rounded-full"
               src={LogoCircle}
               alt="Logo La Igualitaria"
             />
