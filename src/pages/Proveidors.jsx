@@ -3,6 +3,7 @@ import heroProveidors from "../assets/heroProveidors.jpeg";
 import DetallProveidor from "../components/proveidors/DetallProveidor";
 import Categories from "../components/proveidors/Categories";
 import Context from "../context/Context";
+import MapaProveidor from "../components/proveidors/MapaProveidor";
 
 function Proveidors() {
   const {} = useContext(Context);
@@ -34,6 +35,9 @@ function Proveidors() {
       </div>
       <div>
         <DetallProveidor />
+      </div>
+      <div className="bg-slate-100">
+        <MapaProveidor />
       </div>
     </div>
   );

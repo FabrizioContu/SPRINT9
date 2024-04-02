@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Context from "../../context/Context";
 
 const DetallProveidor = () => {
@@ -21,9 +21,13 @@ const DetallProveidor = () => {
               <h2 className="card-title">{prov.nombre}</h2>
               <p className="hidden md:display">{prov.descripcion}</p>
               <div className="card-actions">
-                <button className="rounded-lg border-rose-800 border px-3 font-semibold my-5">
+                <a
+                  href="" // {prov.url}
+                  target="_blank"
+                  className="rounded-lg border-rose-800 border px-3 font-semibold my-5"
+                >
                   + info
-                </button>
+                </a>
               </div>
               <div className="card-actions">
                 <button

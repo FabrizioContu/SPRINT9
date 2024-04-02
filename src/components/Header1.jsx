@@ -28,19 +28,21 @@ function Header1() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-80"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow dark:bg-base-100 bg-base-100 rounded-box w-80"
           >
             <li>
               <NavLink to="/">inici</NavLink>
             </li>
             <li>
-              <a href="">comunitat</a>
+              <a tabIndex={-1} href="">
+                comunitat
+              </a>
               <ul className="p-2">
                 <li>
-                  <a>Nostres valors</a>
+                  <a tabIndex={0}>Nostres valors</a>
                 </li>
                 <li>
-                  <a>Com decidim</a>
+                  <a tabIndex={0}>Com decidim</a>
                 </li>
                 <li>
                   <NavLink to="/qui-som">Qui som</NavLink>
@@ -76,13 +78,16 @@ function Header1() {
           </li>
           <li>
             <details className="text-lg">
-              <summary>comunitat</summary>
+              <summary tabIndex={0}>comunitat</summary>
               <ul className="p-2 w-72 bg-[#508BBA] text-lg">
                 <li>
                   <NavLink to="/qui-som">qui som</NavLink>
                 </li>
                 <li>
-                  <a>com decidim</a>
+                  <a tabIndex={-1}>com decidim</a>
+                </li>
+                <li>
+                  <a tabIndex={-1}>nostres valors</a>
                 </li>
               </ul>
             </details>

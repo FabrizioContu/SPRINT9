@@ -13,13 +13,13 @@ export const ContextProvider = ({ children }) => {
   const getCategoryColor = (categoria) => {
     switch (categoria.toLowerCase()) {
       case "lactics":
-        return "bg-sky-400";
+        return "bg-sky-400 hover:bg-sky-500";
       case "verdures":
-        return "bg-green-400";
+        return "bg-green-400 hover:bg-green-500";
       case "fruites":
-        return "bg-red-400";
+        return "bg-red-400 hover:bg-red-500";
       case "llegums":
-        return "bg-yellow-400";
+        return "bg-yellow-400 hover:bg-yellow-500";
       default:
         return "bg-gray-400";
     }
@@ -34,7 +34,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-sky-400 rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-sky-400 hover:bg-sky-600 rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
@@ -51,7 +51,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-green-400 rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-green-400 hover:bg-green-600 rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
@@ -67,7 +67,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-red-400 rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-red-400 hover:bg-red-600 rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
@@ -83,7 +83,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-yellow-400 rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-yellow-400 hover:bg-yellow-600 rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
