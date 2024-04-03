@@ -1,5 +1,3 @@
-import React, { useContext } from "react";
-
 function Map() {
   return (
     <div className="flex-1">

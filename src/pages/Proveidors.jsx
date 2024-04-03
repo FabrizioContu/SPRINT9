@@ -1,13 +1,10 @@
-import React, { useContext } from "react";
 import heroProveidors from "../assets/heroProveidors.jpeg";
 import DetallProveidor from "../components/proveidors/DetallProveidor";
 import Categories from "../components/proveidors/Categories";
-import Context from "../context/Context";
+
 import MapaProveidor from "../components/proveidors/MapaProveidor";
 
 function Proveidors() {
-  const {} = useContext(Context);
-
   return (
     <div className="font-poppins">
       <div

@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "../assets/Heading.png";
 import Participa from "../components/Participa";
 import WaveTop from "../assets/waveTop1.png";
@@ -91,15 +90,15 @@ function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              <div class="text-3xl md:text-5xl font-extrabold ...">
-                <span class=" bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-[#508BBA]">
+              <div className="text-3xl md:text-5xl font-extrabold ...">
+                <span className=" bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-[#508BBA]">
                   Des-de el nostre Blog
                 </span>
               </div>
             </h2>
             <p className="mt-2 text-lg leading-8 text-gray-600">
-              "Aprèn com fer créixer el teu negoci amb els nostres consells
-              d'experts..
+              Aprèn com fer créixer el teu negoci amb els nostres consells
+              d’experts..
             </p>
           </div>
           <div className="mx-auto mt-5 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">

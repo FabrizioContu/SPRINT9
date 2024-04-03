@@ -1,13 +1,7 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import WaveBottom from "../assets/waveBottom2.png";
 
-import {
-  FaTwitter,
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Context from "../context/Context";
 import { Link, NavLink } from "react-router-dom";
 import Map from "./Map";
@@ -73,12 +67,12 @@ function Footer() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="w-10 h-10 me-10 bg-white rounded-full"
+                className="w-10 h-10 me-10 bg-white rounded-full"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm.53 5.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.72-1.72v5.69a.75.75 0 0 0 1.5 0v-5.69l1.72 1.72a.75.75 0 1 0 1.06-1.06l-3-3Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </div>

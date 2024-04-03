@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
@@ -26,7 +26,7 @@ function Comunitat() {
     <div>
       <h1>Proveïdors</h1>
       <div className="flex-wrap gap-3 columns-2 ps-7 py-5 md:flex bg-gray-100 rounded-md">
-        {proveidors.map((prov, index) => (
+        {proveidors.map((prov) => (
           <div className="flex" key={prov.id}>
             <div className="card w-72 bg-neutral-50 shadow-md mx-auto my-2">
               <figure className="px-5 pt-5">

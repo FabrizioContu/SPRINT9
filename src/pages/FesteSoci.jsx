@@ -1,5 +1,3 @@
-import React from "react";
-
 function FesteSoci() {
   return (
     <div className="font-poppins">

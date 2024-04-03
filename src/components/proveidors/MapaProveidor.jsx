@@ -1,4 +1,3 @@
-import React from "react";
 import { MapContainer, TileLayer, Circle } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Marcadors from "./Marcadors";

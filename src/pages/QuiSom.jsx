@@ -1,4 +1,3 @@
-import React from "react";
 import quisom from "../assets/qui_som.jpg";
 
 function QuiSom() {
@@ -20,7 +19,7 @@ function QuiSom() {
         </h2>
         <p>
           Les millors condicions de preu, qualitat i equitat social en la tria
-          dels productes, amb l'objectiu de garantir el dret fonamental de tot
+          dels productes, amb l’objectiu de garantir el dret fonamental de tot
           ciutadà a una alimentació sense productes químics ni manipulacions
           transgèniques. Tot això assegurant que els processos implicats en la
           creació i distribució d’aquests béns incorporin valor social i
@@ -48,7 +47,7 @@ function QuiSom() {
             <img
               alt="daisy"
               src="https://c.pxhere.com/photos/ec/13/field_farming_crop_rural_track-99274.jpg!d"
-              srcset="https://c.pxhere.com/photos/ec/13/field_farming_crop_rural_track-99274.jpg!d"
+              srcSet="https://c.pxhere.com/photos/ec/13/field_farming_crop_rural_track-99274.jpg!d"
             />
           </div>
           <div className="diff-item-2">
@@ -65,7 +64,7 @@ function QuiSom() {
           FINANÇAMENT OBRES
         </h3>
         <p className="font-semibold flex self-start py-3">
-          El local necessita adequació i posada a punt per a l'obertura com a
+          El local necessita adequació i posada a punt per a l’obertura com a
           local comercial:
         </p>
         <ul className="text-left py-2">
