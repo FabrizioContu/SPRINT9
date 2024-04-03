@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import Context from "../../context/Context";
 
 const DetallProveidor = () => {
@@ -6,7 +6,7 @@ const DetallProveidor = () => {
 
   return (
     <div className="flex-wrap gap-3 columns-2 ps-7 py-5 md:flex bg-gray-100 rounded-md">
-      {proveidors.map((prov, index) => (
+      {proveidors.map((prov) => (
         <div className="flex justify-center " key={prov.id}>
           <div className="card w-36 sm:w-56 bg-neutral-50 shadow-md my-2">
             <figure className="px-3 pt-5">

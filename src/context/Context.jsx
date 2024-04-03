@@ -6,10 +6,14 @@ import LaIgualitariaText from "../assets/LaIgualitariaText.png";
 import somLaClau from "../assets/somLaClau.png";
 import logos_peu from "../assets/logos_peu.png";
 import proveidors from "../proveidors.js";
+import PropTypes from "prop-types";
 
 export const Context = createContext();
 
 export const ContextProvider = ({ children }) => {
+  ContextProvider.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
   const getCategoryColor = (categoria) => {
     switch (categoria.toLowerCase()) {
       case "lactics":
