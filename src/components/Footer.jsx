@@ -41,7 +41,7 @@ function Footer() {
         </div>
 
         <nav className="pt-3 ">
-          <h6 className="footer-title">MENÚ</h6>
+          <h6 className="footer-title opacity-100">MENÚ</h6>
           <NavLink className="" to="/qui-som">
             qui som
           </NavLink>
@@ -50,7 +50,7 @@ function Footer() {
           <NavLink to="/proveidors">proveïdors</NavLink>
         </nav>
         <nav className="pt-3">
-          <h6 className="footer-title">Legal</h6>
+          <h6 className="footer-title opacity-100">LEGAL</h6>
           <a className="link link-hover">Termins y condicions</a>
           <a className="link link-hover">Politica de privadesa</a>
           <a className="link link-hover">Politica de galletas</a>
@@ -96,7 +96,7 @@ function Footer() {
               />
             </Link>
           </div>
-          <div className=" p-2 text-neutral-content text-center">
+          <div className=" p-2 text-white text-center">
             <aside className="">
               <p>Copyright © 2024 - All right reserved</p>
             </aside>

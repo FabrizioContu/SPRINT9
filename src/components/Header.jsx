@@ -2,13 +2,17 @@ import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Context from "../context/Context";
 
-function Header1() {
+function Header() {
   const { LogoCircle, LaIgualitariaTextBlanc } = useContext(Context);
   return (
     <div className="navbar bg-[#508BBA] font-poppins">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost lg:hidden text-white"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7 "
@@ -26,7 +30,7 @@ function Header1() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow dark:bg-base-100 bg-base-100 rounded-box w-80"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-80"
           >
             <li>
               <NavLink to="/">inici</NavLink>
@@ -107,4 +111,4 @@ function Header1() {
   );
 }
 
-export default Header1;
+export default Header;
