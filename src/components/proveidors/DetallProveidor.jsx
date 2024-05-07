@@ -13,12 +13,12 @@ const DetallProveidor = () => {
               <img
                 src={prov.image}
                 alt={prov.nombre}
-                className="rounded-xl h-24"
+                className="rounded-xl h-24 "
               />
             </figure>
 
             <div className="card-body items-center text-center">
-              <h2 className="card-title">{prov.nombre}</h2>
+              <h2 className="card-title text-black">{prov.nombre}</h2>
               <p className="hidden md:display">{prov.descripcion}</p>
               <div className="card-actions">
                 <a

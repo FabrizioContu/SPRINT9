@@ -33,7 +33,7 @@ const Categories = () => {
             <li
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`cursor-pointer text-sm w-24 h-24 py-3 md:text-base md:w-32 md:h-32 my-5 px-3 md:py-5 rounded-full ${
+              className={`cursor-pointer text-black text-sm w-24 h-24 py-3 md:text-base md:w-32 md:h-32 my-5 px-3 md:py-5 rounded-full ${
                 selectedCategory === category
                   ? `${getCategoryColor(
                       category
@@ -90,7 +90,7 @@ const Categories = () => {
                       {renderProducts(proveidor)}
                       <div className="modal-action flex justify-center">
                         <form method="dialog">
-                          <button className="bg-black dark:bg-red-300 text-white w-32 rounded-full py-1">
+                          <button className="bg-black text-white w-32 rounded-full py-1">
                             Tancar
                           </button>
                         </form>
