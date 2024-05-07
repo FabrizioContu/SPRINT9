@@ -38,7 +38,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-sky-400 hover:bg-sky-600 rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-sky-400 hover:bg-sky-500 rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
@@ -55,7 +55,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-green-400 hover:bg-green-600 text-black rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-green-400 hover:bg-green-500 text-black rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
@@ -71,7 +71,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-red-400 hover:bg-red-600 text-black rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-red-400 hover:bg-red-500 text-black rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
@@ -87,7 +87,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-yellow-400 hover:bg-yellow-600 text-black rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-yellow-400 hover:bg-yellow-500 text-black rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>

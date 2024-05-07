@@ -31,7 +31,7 @@ const DetallProveidor = () => {
               </div>
               <div className="card-actions">
                 <button
-                  className={`badge py-5 w-28 md:w-36 text-lg font-semibold text-white ${getCategoryColor(
+                  className={`badge border-none py-5 w-28 md:w-36 text-lg font-semibold text-white ${getCategoryColor(
                     prov.categoria
                   )}`}
                   onClick={() =>
