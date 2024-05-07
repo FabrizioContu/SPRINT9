@@ -25,8 +25,9 @@ const Categories = () => {
   return (
     <div className=" grid place-content-center bg-slate-100 rounded-md">
       <div className=" m-5 px-5">
-        <h2 className="text-3xl font-bold mt-5 text-center">Productes</h2>
-
+        <h2 className="text-3xl font-bold mt-5 text-center text-black">
+          Productes
+        </h2>
         <ul className="flex shrink text-center content-center gap-3">
           {categories.map((category) => (
             <li
@@ -45,7 +46,7 @@ const Categories = () => {
                   <img
                     src={categoryIcons[category]}
                     alt={category}
-                    className="h-10 w-10 md:h-12 md:w-12  mb-2"
+                    className="h-10 w-10 md:h-12 md:w-12  mb-2 dark:text-dark"
                   />
                 )}
                 {category}
@@ -89,7 +90,7 @@ const Categories = () => {
                       {renderProducts(proveidor)}
                       <div className="modal-action flex justify-center">
                         <form method="dialog">
-                          <button className="bg-black text-white w-32 rounded-full py-1">
+                          <button className="bg-black dark:bg-red-300 text-white w-32 rounded-full py-1">
                             Tancar
                           </button>
                         </form>
