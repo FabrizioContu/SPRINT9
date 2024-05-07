@@ -6,7 +6,7 @@ function MapaProveidor() {
   const limeOptions = { color: "lime" };
   return (
     <div className="mx-5 md:mx-12 lg:mx-32 py-10">
-      <h3 className="text-center font-bold text-3xl pb-14">
+      <h3 className="text-center text-black font-bold text-3xl pb-14">
         Tots els nostres proveïdors a menys de 200Km
       </h3>
       <MapContainer

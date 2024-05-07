@@ -38,7 +38,7 @@ export const ContextProvider = ({ children }) => {
               {proveidor.productos.map((prod) => (
                 <li
                   key={prod}
-                  className="bg-sky-400 hover:bg-sky-500 rounded-xl my-1 py-2 px-3 mx-2"
+                  className="bg-sky-400 hover:bg-sky-500 text-black rounded-xl my-1 py-2 px-3 mx-2"
                 >
                   {prod}
                 </li>
