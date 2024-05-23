@@ -47,7 +47,8 @@ function Footer() {
           </NavLink>
           <NavLink to="/fer-se-soci">fes-te soci/a</NavLink>
           <NavLink to="/comunitat">comunitat</NavLink>
-          <NavLink to="/proveidors">proveïdors</NavLink>
+          <NavLink to="/proveidors">productes</NavLink>
+          <NavLink to="/nostres-valors">nostres valors</NavLink>
         </nav>
         <nav className="pt-3">
           <h6 className="footer-title opacity-100">LEGAL</h6>

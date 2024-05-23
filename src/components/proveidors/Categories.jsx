@@ -28,7 +28,7 @@ const Categories = () => {
         <h2 className="text-3xl font-bold mt-5 text-center text-black">
           Productes
         </h2>
-        <ul className="flex shrink text-center content-center gap-3">
+        <ul className="flex shrink gap-3">
           {categories.map((category) => (
             <li
               key={category}
