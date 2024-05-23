@@ -7,15 +7,11 @@ function Header() {
   return (
     <div className="navbar bg-[#508BBA] font-poppins">
       <div className="navbar-start">
-        <div className="dropdown">
-          <div
-            tabIndex={0}
-            role="button"
-            className="btn btn-ghost lg:hidden text-white"
-          >
+        <details className="dropdown ps-5 md:ps-0">
+          <summary className="btn btn-ghost lg:hidden text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7 "
+              className="h-7 w-7"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -27,11 +23,8 @@ function Header() {
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
-          </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow dark:bg-base-100 bg-base-100 rounded-box w-80"
-          >
+          </summary>
+          <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow dark:bg-base-100 bg-base-100 rounded-box w-80 ">
             <li>
               <NavLink to="/">inici</NavLink>
             </li>
@@ -55,7 +48,7 @@ function Header() {
               <NavLink to="/proveidors">Proveïdors</NavLink>
             </li>
           </ul>
-        </div>
+        </details>
         <div className="flex justify-center lg:justify-around">
           <Link to="/">
             <img
